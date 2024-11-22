@@ -20,7 +20,7 @@ function startGame() {
 
   gameInterval = setInterval(() => {
     moveEmoji();
-  }, 400);
+  }, 300);
 
   setTimeout(endGame, 30000); // Permainan berakhir setelah 30 detik
 }
